@@ -47,6 +47,7 @@ body {
 
 .convert input {
     height: 40px;
+    width: 90%;
     font-size: 1.3rem;
     border: 1px solid gray;
     outline: palegreen;
@@ -113,9 +114,18 @@ button {
 @media(max-width:770px) {
     .container {
         width: 500px;
-        height: 800px;
+        height: 100%;
         flex-direction: column;
         box-shadow: none;
         border: none;
     }
+    .convert,
+.info {
+ width:85%;
+ height: 300px;
+
+}
+h2,h3,.info ul li,.convert input,.convert {
+    font-size: 80%;
+}
 }
